@@ -1,0 +1,31 @@
+
+            table,td{
+                border:1px solid rgb(241, 6, 6);
+                border-collapse: collapse;
+                width: 500px; /* Propiedad de tipo tabla */
+                height: 50px; /* Propiedad solamente para los tipos td */
+            }
+
+                tr:nth-child(even)
+                td:nth-child(even),
+                tr:nth-child(odd)
+                td:nth-child(odd){
+                    background-color: #0a0a0a;
+            }
+
+                tr:nth-child(odd)
+                td:nth-child(even),
+                tr:nth-child(even)
+                td:nth-child(odd){
+                    background-color: #060605;
+            }
+
+       
+        
+
+       
+          
+
+
+
+        
